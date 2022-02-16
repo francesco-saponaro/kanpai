@@ -1,0 +1,35 @@
+{
+  "name": "kanpai",
+  "version": "1.0.0",
+  "description": "mern ecommerce app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
+    "seeder": "node backend/utilities/seeder.js",
+    "test:product": "nodemon --exec mocha test/product -R min",
+    "test:user": "nodemon --exec mocha test/user -R min",
+    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "Francesco Saponaro",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.27.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.2.0",
+    "mongoose": "^6.0.11",
+    "nodemailer": "^6.7.0",
+    "stripe": "^8.194.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

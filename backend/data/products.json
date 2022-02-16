@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Yamazaki Distiller's Reserve",
+        "price": 65,
+        "strength": 43,
+        "volume": 70,
+        "description": "Born in the Suntory historical distillery, the first in Japan, Yamazaki Distiller's Reserve is the new single malt to integrate the permanent whisky range of the brand. Fruity flavors, big part of the Yamazaki distillery signature including strawberry, cherry and white peach, are complemented by japanese typical spicy notes including cinnamon, incense and ginger.",
+        "ratings": 4.3,
+        "images" : [{
+            "public_id" : "products/yamazaki-distillers-reserve_iscggm",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637861019/products/yamazaki-distillers-reserve_iscggm.png"
+        }],
+        "category": "Single Malt",
+        "stock": 4,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Akashi Single Malt Sake Cask",
+        "price": 99,
+        "strength": 50,
+        "volume": 50,
+        "description": "Akashi Single Malt Sake Cask is a whisky produced at the Eigashima - White Oak distillery. As its name suggests, it has been aged 3 years in oak barrels having contained sake from the Eigashima brewery. Uncolored, unchillfiltered, it offers a particularly malty and floral delicate nose, then woody and cereal aromas subtly appear on the palate to disappear in a soft finish full of orchard fruits.",
+        "ratings": 4.7,
+        "images" : [{
+            "public_id" : "products/akashi-single-malt-sake-cask_e2c34a",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860994/products/akashi-single-malt-sake-cask_e2c34a.png"
+        }],
+        "category": "Single Malt",
+        "stock": 2,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Hibiki Japanese Harmony",
+        "price": 86,
+        "strength": 43,
+        "volume": 70,
+        "description": "Hibiki Japanese Harmony, created by Shinji Fukuyo, master blender of the House of Suntory, is the brand new expression of one of the most awarded Japanese whiskies in the world. With a powerful fruity and sweet smell, this whisky delivers all its aromatic power in the mouth with a round and slightly fatty texture. ",
+        "ratings": 4.5,
+        "images" : [{
+            "public_id" : "products/hibiki-japanese-harmony_e3h6ml",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860993/products/hibiki-japanese-harmony_e3h6ml.png"
+        }],
+        "category": "Blend",
+        "stock": 9,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Kirin Fuji Single Grain",
+        "price": 65,
+        "strength": 46,
+        "volume": 70,
+        "description": "Known throughout the world for its expertise in the distillation of grain whiskies (Kirin Single Grain has already been awarded a gold medal at the International Spirits Challenge 2020), Fuji Gotemba distillery founded in 1970 at the foot of Mount Fuji unveils its latest creation : Kirin Fuji Single Grain. Jota Tanaka, Kirin Whisky's Master Blender, shows us once again how to achieve a perfect balance between light and cereal notes, and rich and intense aromas. This aromatic harmony is achieved through the blending of three types of grain whiskies : a light type (distilled in column stills), a medium (distilled in Batch Kettle still) and an intense one (distilled in Double Still, a worldwide specificity outside the lands of Bourbon).",
+        "ratings": 4.1,
+        "images" : [{
+            "public_id" : "products/kirin-fuji-single-grain_ce2y8q",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860993/products/kirin-fuji-single-grain_ce2y8q.png"
+        }],
+        "category": "Single Grain",
+        "stock": 12,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Kujira Whisky 12 year old Sherry Cask",
+        "price": 185,
+        "strength": 40,
+        "volume": 70,
+        "description": "Kujira Whisky 12 Year Old Sherry Cask is a single grain whisky whose originality is to be made from 100% indica long grain rice fermented with yeast like whisky and black Koji, a variety unique to the Okinawa islands, distilled in traditional stills according to the manufacturing method inherited from awamori, the traditional spirit of the region.",
+        "ratings": 4.9,
+        "images" : [{
+            "public_id" : "products/kujira-whisky-12-year-old-sherry-cask_l7vshn",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860993/products/kujira-whisky-12-year-old-sherry-cask_l7vshn.png"
+        }],
+        "category": "Single Grain",
+        "stock": 2,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "The Chita Single Grain",
+        "price": 60,
+        "strength": 43,
+        "volume": 70,
+        "description": "The Chita is the only grain whisky produced and bottled as such by Suntory. It is a blend of single grains (mainly corn), relatively young, but with strong tasting characteristics that have been aged in different types of casks, and distilled at the Chita distillery located a few kilometers from Nagoya city.",
+        "ratings": 3.9,
+        "images" : [{
+            "public_id" : "products/the-chita-single-grain_uzfhpw",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860993/products/the-chita-single-grain_uzfhpw.png"
+        }],
+        "category": "Single Grain",
+        "stock": 12,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Togouchi Pure Malt",
+        "price": 56,
+        "strength": 40,
+        "volume": 70,
+        "description": "A new creation from Sakurao Brewery & Distillery, formerly Chugoku Jozo, Togouchi Pure Malt is a blend of single malts imported from different distilleries, then aged, blended and bottled in Japan. Very slightly peaty, this whisky reveals a pleasantly greedy nose with notes of vanilla, chocolate, ripe apricot to which aromas of fresh cream are added to the palate while the fine peat asserts itself. On the finish, the bitter cocoa and hazelnut notes accompany the slowly disappearing peat. Togouchi Pure Malt surprises with its strong character inherited from the meticulous selection of Sherry and Bourbon casks in which the single malts have been aged between 3 and 9 years.",
+        "ratings": 4.2,
+        "images" : [{
+            "public_id" : "products/togouchi-single-malt-cask-strength_dhtgrf",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637861019/products/togouchi-single-malt-cask-strength_dhtgrf.png"
+        }],
+        "category": "Pure Malt",
+        "stock": 8,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Ichiro's Malt Wine Wood Reserve",
+        "price": 119,
+        "strength": 46,
+        "volume": 70,
+        "description": "Ichiro's Malt Wine Wood Reserve is a blended malt created by Ichiro Akuto, founder of the Chichibu distillery, which is partly composed from the last single malt casks of the now closed Hanyu distillery. This rare expression is therefore an atypical blend for two reasons. The first one is that it is composed of a subtle mix of single malts from Chichibu and Hanyu distilleries, but also of single malts from Scotland. This makes it one of the rare whiskies that gives the possibility to taste whisky from the Hanyu distillery founded by Ichiro Akuto's grandfather and definitively closed.",
+        "ratings": 4.8,
+        "images" : [{
+            "public_id" : "products/ichiro-s-malt-wine-wood-reserve_inh1pz",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860993/products/ichiro-s-malt-wine-wood-reserve_inh1pz.png"
+        }],
+        "category": "Pure Malt",
+        "stock": 1,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Mars 2016 Tsunuki French Connections",
+        "price": 205,
+        "strength": 60,
+        "volume": 70,
+        "description": "Distilled in December 2016 at the Tsunuki distillery, Mars 2016 Tsunuki French Connections was aged for 4 years in a second-fill bourbon cask giving it a lively and smooth profile. This single cask with a herbaceous, fruity (pear, pineapple) and jammy (mirabelle plum) nose evolving towards a more lemony and spicy (black pepper) register, surprises by its powerful and spicy (star anise) attack on the palate.",
+        "ratings": 5,
+        "images" : [{
+            "public_id" : "products/mars-2016-tsunuki-french-connections_m0pfca",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860993/products/mars-2016-tsunuki-french-connections_m0pfca.png"
+        }],
+        "category": "Single Cask",
+        "stock": 2,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Akashi Single Malt 5 year old Sherry Cask",
+        "price": 115,
+        "strength": 50,
+        "volume": 50,
+        "description": "This bottling is fully inline with the tradition of this small family craft distillery since this Akashi Single Malt 5 year old Sherry Cask comes from a single barrel, the n°61071. Fruit of a 5 years aging in Sherry cask, this whisky develops an intense fruity nose with notes of vanilla, a silky mouth with almonds and dried fruits notes, typical of Sherry, and a delicate finish with subtle notes of white flowers.",
+        "ratings": 4.8,
+        "images" : [{
+            "public_id" : "products/akashi-single-malt-5-year-old-sherry-cask_kcr27y",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860994/products/akashi-single-malt-5-year-old-sherry-cask_kcr27y.png"
+        }],
+        "category": "Single Cask",
+        "stock": 1,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Akashi Single Malt 10 year old Sherry Butt",
+        "price": 245,
+        "strength": 60,
+        "volume": 50,
+        "description": "Distilled at the Eigashima - White Oak distillery and then matured for 10 years in cask number 5164, Akashi Single Malt 10 year old Sherry Butt is therefore a single cask version. Specially selected for its aromatic palette, the barrel has the particularity of being a sherry butt, a large barrel of 500 liters used for aging the famous Sherry wines of Andalusia which in addition to strongly coloring the whisky, transmit a greedy aromatic richness.",
+        "ratings": 4.8,
+        "images" : [{
+            "public_id" : "products/akashi-single-malt-10-year-old-sherry-butt_zsmf3g",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637860994/products/akashi-single-malt-10-year-old-sherry-butt_zsmf3g.png"
+        }],
+        "category": "Single Cask",
+        "stock": 5,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "Kanosuke New Born 8 months old",
+        "price": 34,
+        "strength": 58,
+        "volume": 20,
+        "description": "Rarely mentioned, patience is a key word in the spirit world. And yet, you will have to wait a few months to taste the first whiskies from the Kanosuke distillery. Rest assured, we still thought of you! This Kanosuke New Born Single Malt, by definition, is the juice that comes out of the still then aged for 8 months in white oak barrels before used for maturing shochu. It must be said that beyond its very refreshing profile, sublime fruit aromas already exist.",
+        "ratings": 4.4,
+        "images" : [{
+            "public_id" : "products/kanosuke-new-born-8-months_pjt7qx",
+            "url" : "https://res.cloudinary.com/kanpaiwhiskeys/image/upload/v1637861111/products/kanosuke-new-born-8-months_pjt7qx.png"
+        }],
+        "category": "New Malt",
+        "stock": 6,
+        "numOfReviews": 0,
+        "reviews": []
+    }
+]
