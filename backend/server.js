@@ -13,7 +13,7 @@ process.on('uncaughtException', err => {
 
 // Setting up config.env file if not in production mode
 if(process.env.NODE_ENV !== 'PRODUCTION') {
-    require('dotenv').dotenv.config({ path: 'backend/config/config.env' })
+    require('dotenv').config({ path: 'backend/config/config.env' })
 }
 
 // Connecting to database
