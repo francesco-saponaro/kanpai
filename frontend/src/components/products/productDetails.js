@@ -35,8 +35,6 @@ const ProductDetails = ({ match }) => {
     const { loading, error, product } = useSelector(state => state.productDetails)
     const { user, isAuthenticated } = useSelector(state => state.user)
 
-    const { cartItems } = useSelector(state => state.cart)
-
     // We extract data from the store newReview with the useSelector hook,
     // To be passed in the useEffect hook below, since "error" has already been 
     // extracted above, in here we rename error to "reviewError"
@@ -185,11 +183,15 @@ const ProductDetails = ({ match }) => {
 
         const formData = new FormData();
 
-        formData.set('rating', rating);
-        formData.set('comment', comment);
-        formData.set('productId', match.params.id);
+        if(rating === 0 && comment === '') {
+            alert.error('You must add either a rating or comment or both')
+        } else {
+            formData.set('rating', rating);
+            formData.set('comment', comment);
+            formData.set('productId', match.params.id);
 
-        dispatch(newReview(formData));
+            dispatch(newReview(formData));
+        }
     }
 
     return (
