@@ -5,7 +5,7 @@ import axios from 'axios'
 // the logged in user, as we want to associate the cart items to the user that added it in order to 
 // remove the cart items from the local storage if a different user logs in.
 // It takes the product ID, quantity and user as parameters.
-export const addItemToCart = (id, quantity, user) => async (dispatch, getState) => {
+export const addItemToCart = (id, quantity, user = 'not authenticated') => async (dispatch, getState) => {
 
     const { data } = await axios.get(`/api/v1/product/${id}`)
 
