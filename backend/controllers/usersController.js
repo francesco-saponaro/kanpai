@@ -197,7 +197,7 @@ exports.forgotPassword = catchAsyncErrors(async (req, res, next) => {
     // ${req.protocol}://${req.get('host')}/api/v1
     // Create reset password URL to be sent by email.
     // req.protocol would be either HTTP or HTTPS - req.get.host would be either localhost or
-    // your custom domain.
+    // your custom domain in PRODUCTION.
     const resetUrl = `${req.protocol}://${req.get('host')}/password/reset/${resetToken}`;
 
     // Create message containing reset password URL to be sent by email

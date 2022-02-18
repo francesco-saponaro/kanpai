@@ -11,7 +11,8 @@ process.on('uncaughtException', err => {
     process.exit(1)
 })
 
-// Setting up config.env file if not in production mode
+// Setting up config.env file if not in PRODUCTION mode, as in production the config files are uploaded
+// from Heroku
 if(process.env.NODE_ENV !== 'PRODUCTION') {
     require('dotenv').config({ path: 'backend/config/config.env' })
 }

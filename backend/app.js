@@ -9,7 +9,8 @@ const bodyParser = require('body-parser')
 const fileUpload = require('express-fileupload')
 const path = require('path')
 
-// Setting up config.env file if not in production mode
+// Setting up config.env file if not in PRODUCTION mode, as in production the config files are uploaded
+// from Heroku
 if(process.env.NODE_ENV !== 'PRODUCTION') {
     require('dotenv').config({ path: 'backend/config/config.env' })
 }
@@ -34,7 +35,7 @@ app.use('/api/v1', users);
 app.use('/api/v1', order);
 app.use('/api/v1', payment);
 
-// If in production mode run the app with the 'build' folder, which is an optimized version for 
+// If in PRODUCTION mode run the app with the 'build' folder, which is an optimized version
 // of the app for deployment
 if(process.env.NODE_ENV === 'PRODUCTION') {
 
