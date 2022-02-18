@@ -116,12 +116,8 @@ const UpdateProduct = ({ match, history }) => {
             alert.error(`Price needs to be higher than 0`);
         }
 
-        if(images.length === 0) {
-            alert.error(`Please add product image`);
-        }
-
         // If both are filled, submit the form by dispatching the newProduct action
-        if(name !== '' && description !== '' && price > 0 && images.length !== 0) {
+        if(name !== '' && description !== '' && price > 0) {
 
             const formData = new FormData();
             formData.set('name', name);

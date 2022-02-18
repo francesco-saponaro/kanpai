@@ -4,7 +4,9 @@ import axios from 'axios'
 // and dispatch the ADD_TO_CART action with the product details, quantity of it and also
 // the logged in user, as we want to associate the cart items to the user that added it in order to 
 // remove the cart items from the local storage if a different user logs in.
-// It takes the product ID, quantity and user as parameters.
+// Give the user parameter a default value of "not authenticated" as otherwise it would throw an error
+// if a product is added by a not authenticated user and then try to access the checkout page by an 
+// authenticated user.
 export const addItemToCart = (id, quantity, user = 'not authenticated') => async (dispatch, getState) => {
 
     const { data } = await axios.get(`/api/v1/product/${id}`)

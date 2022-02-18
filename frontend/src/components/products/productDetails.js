@@ -113,6 +113,8 @@ const ProductDetails = ({ match }) => {
     // the submit button
     const addToCart = () => {
 
+        // If the user is not authenticated omit it as parameter as it would have a default value
+        // to prevent a null error (check cartActions.js).
         if(isAuthenticated) {
             dispatch(addItemToCart(match.params.id, quantity, user));
         } else {

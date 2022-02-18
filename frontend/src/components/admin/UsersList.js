@@ -25,6 +25,7 @@ const UsersList = ({ history }) => {
     // To be passed in the table below.
     const { loading, error, users } = useSelector(state => state.allUsers);
     const { isDeleted } = useSelector(state => state.userProfile)
+    const { user: authenticatedUser } = useSelector(state => state.user)
 
     useEffect(() => {
 
@@ -111,9 +112,12 @@ const UsersList = ({ history }) => {
                         <a href={`/admin/user/${user._id}`} className="btn btn-primary py-1 px-2">
                             <i className="fa fa-pencil"></i>
                         </a>
-                    <button className="btn btn-danger py-1 px-2 ms-2" onClick={() => deleteUserHandler(user._id)}>
-                            <i className="fa fa-trash"></i>
-                        </button>
+                        {/* Do not add delete button for authenticated user */}
+                        {user._id !== authenticatedUser._id && 
+                            <button className="btn btn-danger py-1 px-2 ms-2" onClick={() => deleteUserHandler(user._id)}>
+                                <i className="fa fa-trash"></i>
+                            </button>
+                        }
                     </div>
                 </Fragment>
             })
