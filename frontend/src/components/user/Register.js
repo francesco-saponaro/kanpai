@@ -53,7 +53,7 @@ const Register = ({history}) => {
 
             // Check if any of the cartItems in the local storage have a user ID corresponding
             // to the ID of the user just logged in. If not remove the items from local storage.
-            if(cartItems.every(item => item.user !== "not authenticated")) {
+            if(cartItems.some(item => item.user !== "not authenticated")) {
                 if(cartItems.some(item => item.user._id !== user._id)) {
                     localStorage.removeItem('cartItems')
                 }
