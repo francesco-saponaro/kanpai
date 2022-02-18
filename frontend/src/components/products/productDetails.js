@@ -33,7 +33,7 @@ const ProductDetails = ({ match }) => {
     // We extract data from the store productDetails and user with the useSelector hook,
     // To be passed in the front end below
     const { loading, error, product } = useSelector(state => state.productDetails)
-    const { user } = useSelector(state => state.user)
+    const { user, isAuthenticated } = useSelector(state => state.user)
 
     // We extract data from the store newReview with the useSelector hook,
     // To be passed in the useEffect hook below, since "error" has already been 
@@ -113,7 +113,12 @@ const ProductDetails = ({ match }) => {
     // the submit button
     const addToCart = () => {
 
-        dispatch(addItemToCart(match.params.id, quantity, user));
+        if(isAuthenticated) {
+            dispatch(addItemToCart(match.params.id, quantity, user));
+        } else {
+            dispatch(addItemToCart(match.params.id, quantity));
+        }
+       
         alert.success('Item Added To Cart')
     }
 
