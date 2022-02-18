@@ -49,19 +49,19 @@ const Login = ({history, location}) => {
             // Check if any of the cartItems in the local storage have a user ID corresponding
             // to the ID of the user just logged in. If not remove the items from local storage.
             // First though check that some of the items dont have a "not authenticated" value for the user
-            // as if they all have it would recognise the second condition as true anyway. 
+            // as if they all have it would recognise the second condition as true anyway.
+            // Also reload the page when redirecting as we want to show the updated cart, which will
+            // be empty. However wait one second since we want to give the alert.success time to show.
             if(cartItems.some(item => item.user !== "not authenticated")) {
                 if(cartItems.some(item => item.user._id !== user._id)) {
                     localStorage.removeItem('cartItems')
+                    history.go()
                 }
             }
 
-            alert.success('Logged in successfully.');
+            history.push(redirect)
 
-            // Also reload the page when redirecting as we want to show the updated cart, which will
-            // be empty. However wait one second since we want to give the alert.success time to show.
-            setTimeout(() => history.push(redirect),1000)
-            setTimeout(() => history.go(),1000)
+            alert.success('Logged in successfully.');
         }
         
         // If there is an error show alert from the react-alert package
