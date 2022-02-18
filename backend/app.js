@@ -44,8 +44,6 @@ if(process.env.NODE_ENV === 'PRODUCTION') {
     app.get('*', (req, res) => {
         res.sendFile(path.resolve(__dirname, '../frontend/build/index.html'))
     })
-
-    app.use(errorMiddleware);
 }
 
 // The app will use the middleware function from the errors.js file to handle errors
