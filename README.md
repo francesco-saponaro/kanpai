@@ -6,6 +6,8 @@ I have also took this opportunity to learn how to test the API/HTTP requests wit
 ### Note for the assessor
 If you would like to test run the website and have fun with the features without having to create an account, you can use this admin account:  
 **USERNAME: admin, EMAIL:test2@test.com, PASSWORD: 123456**.
+If you would like to test the Stripe payment feature once logged in, you can use this test card number: 
+**4000 0027 6000 3184**
 Enjoy :)
 
 ## Features
