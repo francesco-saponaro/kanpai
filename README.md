@@ -4,7 +4,8 @@ This is a practice application I have completed following the [MERN Stack Full E
 I have also took this opportunity to learn how to test the API/HTTP requests with Postman and to test MongoDB's CRUD operations with the Mocha test framework.
 
 ### Note for the assessor
-If you would like to test run the website and have fun with the features without having to create an account, you can use this admin account:  
+If you would like to test run the website and have fun with the features without having to create an account, you can use this admin account:   
+ 
 **USERNAME: admin, EMAIL:test2@test.com, PASSWORD: 123456**.
 If you would like to test the Stripe payment feature once logged in, you can use this test card number: 
 **4000 0027 6000 3184**
