@@ -53,6 +53,7 @@ import store from './store'
 import { Elements } from '@stripe/react-stripe-js'
 import { loadStripe } from '@stripe/stripe-js'
 
+
 function App() {
 
     // Load the logged in user and get the stripe API key from the backend 

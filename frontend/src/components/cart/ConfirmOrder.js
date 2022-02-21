@@ -37,6 +37,7 @@ const ConfirmOrder = ({ history }) => {
 
         sessionStorage.setItem('orderInfo', JSON.stringify(data))
         history.push('/payment')
+        history.go()
     }
 
     return (
