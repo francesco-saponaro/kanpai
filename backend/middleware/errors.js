@@ -14,11 +14,11 @@ module.exports = (err, req, res, next) => {
         })
     }
 
-    // Only show the error message if in production as we dont want to expose the rest of the info
+    // In production mode only show the error message as we dont want to expose the rest of the info
     if(process.env.NODE_ENV === 'PRODUCTION') {
-        res.status(err.statusCode).json({
-            errMessage: err.message
-        })
+
+        let error = {...err}
+        error.message = err.message
 
         // Wrong Mongoose Object ID Error
         if(err.name === 'CastError') {
@@ -52,7 +52,7 @@ module.exports = (err, req, res, next) => {
 
         res.status(error.statusCode).json({
             success:false,
-            message: error.message || 'Internal Server Error'
+            errMessage: error.message || 'Internal Server Error'
         })
     }
 }
