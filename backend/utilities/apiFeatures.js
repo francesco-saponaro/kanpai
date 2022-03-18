@@ -23,7 +23,7 @@ class APIFeatures {
         } : {}
 
         // Pass the keyword variable into the Mongo query
-        this.query = this.query.find({...keyword});
+        this.query = this.query.find({ ...keyword });
         return this
     }
 

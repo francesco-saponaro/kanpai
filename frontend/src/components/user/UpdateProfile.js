@@ -17,6 +17,7 @@ const UpdateProfile = ({ history }) => {
     // This useState hooks will set the various states onChanging their value in the form below
     // See onChange function below
     const [name, setName] = useState('')
+    console.log('user state')
     const [email, setEmail] = useState('')
     const [avatar, setAvatar] = useState('')
     const [avatarPreview, setAvatarPreview] = useState('/images/avatar-img.jpg')
@@ -43,6 +44,7 @@ const UpdateProfile = ({ history }) => {
         if (user) {
 
             setName(user.name);
+            console.log('set user state')
             setEmail(user.email);
             setAvatarPreview(user.avatar.url)
         }

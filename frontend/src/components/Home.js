@@ -63,6 +63,8 @@ const Home = ({ match }) => {
     // empty by default if nothing was searched
     const keyword = match.params.keyword;
 
+    console.log(match.params)
+
     // The useEffect hook acts like a class lifecycle method but it can be used on
     // functional components
     // This hook will run everytime the page loads or reloads before everything else
